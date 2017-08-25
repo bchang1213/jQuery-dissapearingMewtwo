@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Dissapearing Mewtwos</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			//click the mewtwos
+			$( ".mewtwo" ).click(function() {
+  				$( this ).fadeOut( "slow" );
+			});
+			//restore with the button
+			$(".restore").click(function() {
+  				$( ".mewtwo" ).fadeIn( "slow" );
+			});
+		});
+	</script>
+</head>
+
+
+<body>
+	<main>
+		<header>
+			<h1>jQuery - Assignment: Dissapearing Mewtwos</h1>
+		</header>
+		<div>
+			<ul>
+				<li><img src="https://www.pidgi.net/wiki/images/8/83/Mewtwo_-_Pokemon_Red_and_Blue.png" alt="mewtwo" class="mewtwo"></li>
+				<li><img src="https://www.pidgi.net/wiki/images/8/83/Mewtwo_-_Pokemon_Red_and_Blue.png" alt="mewtwo" class="mewtwo"></li>
+				<li><img src="https://www.pidgi.net/wiki/images/8/83/Mewtwo_-_Pokemon_Red_and_Blue.png" alt="mewtwo" class="mewtwo"></li>
+			</ul>
+
+			<ul>
+				<li><img src="https://www.pidgi.net/wiki/images/8/83/Mewtwo_-_Pokemon_Red_and_Blue.png" alt="mewtwo" class="mewtwo"></li>
+				<li><img src="https://www.pidgi.net/wiki/images/8/83/Mewtwo_-_Pokemon_Red_and_Blue.png" alt="mewtwo" class="mewtwo"></li>
+				<li><img src="https://www.pidgi.net/wiki/images/8/83/Mewtwo_-_Pokemon_Red_and_Blue.png" alt="mewtwo" class="mewtwo"></li>
+			</ul>		
+		</div>
+		<button class="restore">Restore</button>
+	</main>
+</body>
+</html>

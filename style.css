@@ -1,0 +1,46 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body main{
+	padding-left: 50px;
+	padding-bottom: 50px;
+	width: 800px;
+	background-color: #504780;
+	height:800px;
+}
+
+h1{
+	color: #ECF7F7;
+}
+
+ul{
+	height:300px;
+}
+
+li{
+	width: 200px;
+	height: 200px;
+	margin: 20px 20px 20px 20px;
+	display: inline-block;
+}
+
+.mewtwo{
+	width: 200px;
+	height: 200px;
+	margin: 20px 20px 20px 20px;
+	border-style:solid;
+	border-color: #443D64;
+	padding: 5px;
+}
+
+.restore{
+	margin-left: 340px;
+	background-color: #A699BD;
+	border-radius: 10px;
+	padding: 10px;
+	color:#2D2850;
+	font-weight: bolder;
+	font-size: 15px;
+}
